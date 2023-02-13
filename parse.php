@@ -1,6 +1,6 @@
 <?php
 const DS = DIRECTORY_SEPARATOR;
-require_once __DIR__ . DS . 'boostrap.php';
+require_once __DIR__ . DS . 'bootstrap.php';
 
 if ( empty( $developers ) || empty( $repositories ) ) {
 	throw new RuntimeException( 'config.php is invalid.' );
